@@ -5,16 +5,16 @@
 # Demo:
 # . env.bash
 
-export PGURL='postgres://tkrapi:tkrapi@127.0.0.1/tkrapi'
-export PYTHON=${HOME}/anaconda3/bin/python
-export PARPATH=${HOME}/tkrapi20
-export PYTHONPATH=${PARPATH}/py
-export SCRIPTPATH=${PARPATH}/bin
-export TKRCSV=${HOME}'/tkrcsv'
-export TKRCSVD=${TKRCSV}'/div'
-export TKRCSVH=${TKRCSV}'/history'
-export TKRCSVS=${TKRCSV}'/split'
-export FLASK_DEBUG=1
-export PORT=5011
-export KERAS_BACKEND=tensorflow
-export PATH=${HOME}/anaconda3/bin:$PATH
+set PGURL='postgres://tkrapi:tkrapi@127.0.0.1/tkrapi'
+set PYTHON=${HOME}/anaconda3/bin/python
+set PARPATH=${HOME}/tkrapi20
+set PYTHONPATH=${PARPATH}/py
+set SCRIPTPATH=${PARPATH}/bin
+set TKRCSV=${HOME}'/tkrcsv'
+set TKRCSVD=${TKRCSV}'/div'
+set TKRCSVH=${TKRCSV}'/history'
+set TKRCSVS=${TKRCSV}'/split'
+set FLASK_DEBUG=1
+set PORT=5011
+set KERAS_BACKEND=tensorflow
+set PATH=${HOME}/anaconda3/bin:$PATH

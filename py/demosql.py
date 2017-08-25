@@ -41,8 +41,8 @@ import os
 import sqlalchemy as sql
 
 # I should connect to the DB
-db_s = os.environ['PGURL']
-
+#db_s = os.environ['PGURL']
+db_s = 'postgres://toajntlqojxjry:71c0c4fb8aa900d1a49f31465c051baaf950f32050cdb702c451811a178b2078@ec2-54-163-240-7.compute-1.amazonaws.com:5432/df66rrrphefqmk'
 conn = sql.create_engine(db_s).connect()
 
 sql_s = "drop table if exists dropme"
